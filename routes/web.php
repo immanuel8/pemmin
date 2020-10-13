@@ -27,3 +27,9 @@ $router->get('hello/{name}', function($name)
 {
 return 'Hello, '.$name;
 });
+
+$router->get('/products', 'ProductController@index');
+$router->get('/products/{id}', 'ProductController@show');
+
+
+
