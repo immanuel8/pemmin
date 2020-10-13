@@ -1,4 +1,3 @@
-# Lumen PHP Framework
 
 #Praktikum Pemrograman Integratif
 Nama    : Immanuel Tri Putra Sihaloho

@@ -15,11 +15,11 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/key', function ()  {
+$router->get('/key', function()  {
     return str_random(32);
 });
 
-$router->get('/biodata', function ()  {
-    return "immanuel tri putra sihaloho 185150701111020";
+$router->get('/biodata', function() {
+    return "Nama : immanuel Sihaloho <br>NIM :185150701111020 ";
 });
 
