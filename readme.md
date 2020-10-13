@@ -4,4 +4,4 @@ Nama    : Immanuel Tri Putra Sihaloho
 NIM     : 185150701111020
 
 #Tugas 1
-buat route dengan /biodata singkat
+buat route dengan /biodata singkatt

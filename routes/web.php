@@ -20,6 +20,10 @@ $router->get('/key', function()  {
 });
 
 $router->get('/biodata', function() {
-    return "Nama : immanuel Sihaloho <br>NIM :185150701111020 ";
+    return "Nama : immanuel Sihaloho <br>NIM    :185150701111020 ";
 });
 
+$router->get('hello/{name}', function($name)
+{
+return 'Hello, '.$name;
+});
